@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reservation</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style_reserve.css">
+</head>
+<body>
+    <div id="container" class="container-fluid bg-secondary bg-opacity-25 d-flex flex-column pt-4 pb-4" style="height:700px ;">
+        <div id="img-div" class="container-fluid rounded-top" style="background-image: url('../images/dobai.jpg'); background-size: cover; height: 75%; object-fit: contain;">
+            <div class="container d-flex flex-column gap-5">
+                <div class="container d-flex justify-content-between align-items-center pt-4">
+                    <a href="../index.html" style="text-decoration: none;"><img src="../images/logo2.png" style="width: 100px; height: 50px;" alt=""></a>
+                    <a href="../index.html" style="text-decoration: none;" class="text-white btn btn-outline-success border-2">Home</a>
+                </div>
+                <center><h2 class="text-light rounded fs-1 d-flex justify-content-center h2Design">Fill your Information to Reserve your Room</h2></center>
+            </div>
+        </div>
+        <div id="info-div" class="container-fluid d-flex align-items-end rounded-bottom" style="background-color: #E4F9F8; height: 25%;">
+            <h4 class="ps-4 pb-3">Popular Destination</h4>
+        </div>
+    </div>
+    <div id="book-div" class="container bg-light d-flex justify-content-evenly align-items-center gap-4 p-2 ">
+        <div>
+            <p class="fs-6 fw-light">Room no.</p>
+            <select name="room" id="room" class="form-select input">
+                <option selected> </option>
+                <option>Room 1</option>
+                <option>Room 2</option>
+                <option>Room 3</option>
+                <option>Room 4</option>
+              </select>
+        </div>
+        <div>
+            <p class="fs-6 fw-light">Guests no.</p>
+            <input name="guests" id="guests" type="number" class="border rounded ps-2 input">
+        </div>
+        <div>
+            <p class="fs-6 fw-light">Arrivel</p>
+            <input name="from" id="from" type="date" class="border rounded ps-2 input">
+        </div>
+        <div>
+            <p class="fs-6 fw-light">Leaving</p>
+            <input name="to" id="to" type="date" class="border rounded ps-2 input">
+        </div>
+    </div>
+    <a id="button1" onclick="saveData()" class="btn text-white rounded-pill d-flex justify-content-center align-items-center">Reserve</a>
+</body>
+<script src="../javascript/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</html>
