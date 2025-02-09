@@ -37,6 +37,10 @@ section{
     padding: 2rem 7%;
 }
 
+.footer_padding{
+    padding: 0 100px;
+}
+
 .heading{
     text-align: center;
     font-size: 4rem;

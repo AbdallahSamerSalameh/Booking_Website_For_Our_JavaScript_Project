@@ -51,7 +51,6 @@ table {
 }
 body{
     font-family: sans-serif;
-
 }
 footer{
     background-color: black;
@@ -86,7 +85,18 @@ footer{
 .input{
     background-color: #92CCCB;
     height: 50px; 
-    width: 130px;
+    width: 165px;
+}
+/* .more-info-div{
+    background-color: #E4F9F8;
+    width: 98%;
+    margin: 0 auto;
+} */
+
+.roomprev{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
 }
 
 @media (max-width: 790px) {
