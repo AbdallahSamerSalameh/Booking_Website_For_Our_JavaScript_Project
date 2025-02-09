@@ -62,13 +62,11 @@ footer{
 }
 
 
-.h2Design{
+.h2Design, .logobg, .btnhomebg{
     backdrop-filter: blur(10px);
     width: fit-content;
 }
 #book-div {
-    position: absolute;
-    z-index: 10;
     bottom: 100px;
     left: 10%;
     height: 115px;
@@ -77,14 +75,10 @@ footer{
     border-radius: 20px;
 }
 #button1{
-    position: absolute;
-    z-index: 10;
-    bottom: 40px;
-    right: 25px;
-    box-shadow: 5px 10px 18px #888888;
-    background-color: #29A5A3; 
-    height: 70px; 
-    width: 200px;
+    /* box-shadow: 5px 10px 18px #888888; */
+    background-color: #92CCCB; 
+    height: 50px; 
+    width: 130px;
 }
 #container {
     position: relative;

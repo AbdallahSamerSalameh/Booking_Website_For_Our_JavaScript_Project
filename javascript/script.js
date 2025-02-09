@@ -95,6 +95,8 @@ function saveData() {
 
         console.log("Saved Reservations: ", reservation);
         alert('Your reservation has been saved');
+        window.location.href="../index.html";
+
     }
 }
 
